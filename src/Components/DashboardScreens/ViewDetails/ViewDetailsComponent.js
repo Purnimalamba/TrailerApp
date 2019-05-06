@@ -70,7 +70,6 @@ export default class ViewDetailsComponent extends React.Component {
   }
 
   logout(){
-    AsyncStorage.multiRemove(['firstName','lastName','onceVisited'])
     this.props.navigation.navigate('Dashboard')
   }
 
